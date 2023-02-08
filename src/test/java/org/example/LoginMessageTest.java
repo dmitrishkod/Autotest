@@ -26,7 +26,7 @@ public class LoginMessageTest extends TestCase {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.get(ConfProperties.getProperty("loginpage")); // заходим на страницу
+        driver.get(ConfProperties.getProperty("page")); // заходим на страницу
     }
 
     @Test
